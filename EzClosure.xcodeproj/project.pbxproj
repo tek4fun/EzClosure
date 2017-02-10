@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E810FF31E4D707700490BF3 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E810FF11E4D707700490BF3 /* Cell.swift */; };
+		1E810FF41E4D707700490BF3 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E810FF21E4D707700490BF3 /* Cell.xib */; };
 		1EE9AE7F1E4C119600B17F33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9AE7E1E4C119600B17F33 /* AppDelegate.swift */; };
 		1EE9AE811E4C119600B17F33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9AE801E4C119600B17F33 /* ViewController.swift */; };
 		1EE9AE841E4C119600B17F33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE9AE821E4C119600B17F33 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E810FF11E4D707700490BF3 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		1E810FF21E4D707700490BF3 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 		1EE9AE7B1E4C119600B17F33 /* EzClosure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzClosure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE9AE7E1E4C119600B17F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE9AE801E4C119600B17F33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				1EE9AE851E4C119600B17F33 /* Assets.xcassets */,
 				1EE9AE871E4C119600B17F33 /* LaunchScreen.storyboard */,
 				1EE9AE8A1E4C119600B17F33 /* Info.plist */,
+				1E810FF11E4D707700490BF3 /* Cell.swift */,
+				1E810FF21E4D707700490BF3 /* Cell.xib */,
 			);
 			path = EzClosure;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE9AE891E4C119600B17F33 /* LaunchScreen.storyboard in Resources */,
+				1E810FF41E4D707700490BF3 /* Cell.xib in Resources */,
 				1EE9AE861E4C119600B17F33 /* Assets.xcassets in Resources */,
 				1EE9AE841E4C119600B17F33 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			files = (
 				1EE9AE811E4C119600B17F33 /* ViewController.swift in Sources */,
 				1EE9AE7F1E4C119600B17F33 /* AppDelegate.swift in Sources */,
+				1E810FF31E4D707700490BF3 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				1EE9AE8F1E4C119600B17F33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
